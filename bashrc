@@ -30,4 +30,4 @@ export LS_COLORS
 alias ls="/bin/ls --color=always"
 alias ll="ls -lah"
 
-PS1="\n\[\e[32;1m\](\[\e[37;1m\]\u@\h\[\e[32;1m\])-(\[\e[37;1m\]j:\j\[\e[32;1m\])-(\[\e[37;1m\]\w\[\e[32;1m\])-(\[\[\e[37;1m\]\!\[\e[32;1m\])-> \[\e[0m\]"
+PS1="\u in \w at \h\n-> "
