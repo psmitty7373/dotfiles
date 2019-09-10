@@ -19,10 +19,6 @@ shopt -s cdspell
 shopt -s dotglob
 shopt -s nocaseglob
 
-if [ "$TERM" == "xterm" ]; then
-    export TERM=xterm-256color
-fi
-
 LS_COLORS=$LS_COLORS:'di=0;35:'
 export LS_COLORS
 
