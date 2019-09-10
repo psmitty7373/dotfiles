@@ -9,7 +9,6 @@ HISTFILESIZE=2000000
 HISTIGNORE='&:clear:ls:cd:[bf]g:exit:[ t\]*'
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 force_color_prompt=yes
-set -o vi
 
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
