@@ -3,7 +3,6 @@
 [ -z "$PS1" ] && return
 
 HISTCONTROL=ignoreboth
-shopt -s histappend
 HISTSIZE=100000
 HISTFILESIZE=2000000
 HISTIGNORE='&:clear:ls:cd:[bf]g:exit:[ t\]*'
@@ -24,5 +23,3 @@ export LS_COLORS
 
 alias ls="/bin/ls --color=always"
 alias ll="ls -lah"
-
-PS1="\u in \w at \h\n-> "
